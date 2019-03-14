@@ -1,0 +1,96 @@
+{
+  "name": "MPMultimedia",
+  "version": "1.0.8",
+  "summary": "MPMultimedia",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPMultimedia",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Repository/MPMultimedia/1_0_8.tar.gz"
+  },
+  "preserve_paths": [
+    "APIJKPlayer.framework/*",
+    "APMAudioProcessing.framework/*",
+    "APMBeauty.framework/*",
+    "APMCache.framework/*",
+    "APMImageProcessing.framework/*",
+    "APMLive.framework/*",
+    "APMTaskManager.framework/*",
+    "APMultimedia.framework/*",
+    "APMUtils.framework/*",
+    "APWebImage.framework/*",
+    "APWebP.framework/*",
+    "FalconLooks.framework/*",
+    "MASSChannel.framework/*",
+    "MASSProxy.framework/*",
+    "MPFalcon.framework/*"
+  ],
+  "resources": [
+    "APMultimedia.framework/*.bundle",
+    "APMUtils.framework/*.bundle",
+    "FalconLooks.framework/*.bundle"
+  ],
+  "frameworks": [
+    "VideoToolbox",
+    "Photos",
+    "MobileCoreServices",
+    "CoreMedia",
+    "CoreAudio",
+    "MapKit",
+    "AVFoundation",
+    "AudioToolbox",
+    "CoreLocation",
+    "AssetsLibrary"
+  ],
+  "dependencies": {
+    "APConfig": [],
+    "APMobileFramework": [],
+    "APMobileNetwork": [],
+    "APRemoteLogging": [],
+    "APLongLinkService": [],
+    "NebulaSDK": []
+  },
+  "vendored_frameworks": [
+    "APIJKPlayer.framework",
+    "APMAudioProcessing.framework",
+    "APMBeauty.framework",
+    "APMCache.framework",
+    "APMImageProcessing.framework",
+    "APMLive.framework",
+    "APMTaskManager.framework",
+    "APMultimedia.framework",
+    "APMUtils.framework",
+    "APWebImage.framework",
+    "APWebP.framework",
+    "FalconLooks.framework",
+    "MASSChannel.framework",
+    "MASSProxy.framework",
+    "MPFalcon.framework"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": [
+      "$(PODS_ROOT)/APIJKPlayer",
+      "$(PODS_ROOT)/APMAudioProcessing",
+      "$(PODS_ROOT)/APMBeauty",
+      "$(PODS_ROOT)/APMCache",
+      "$(PODS_ROOT)/APMImageProcessing",
+      "$(PODS_ROOT)/APMLive",
+      "$(PODS_ROOT)/APMTaskManager",
+      "$(PODS_ROOT)/APMUtils",
+      "$(PODS_ROOT)/APWebImage",
+      "$(PODS_ROOT)/APWebP",
+      "$(PODS_ROOT)/FalconLooks",
+      "$(PODS_ROOT)/MASSChannel",
+      "$(PODS_ROOT)/MASSProxy",
+      "$(PODS_ROOT)/MPFalcon",
+      "$(PODS_ROOT)/APMultimedia"
+    ]
+  }
+}

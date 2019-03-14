@@ -1,0 +1,62 @@
+{
+  "name": "BeeHive",
+  "version": "10.1.15",
+  "summary": "BeeHive",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/BeeHive",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Repository/BeeHive/10_1_15.tar.gz"
+  },
+  "preserve_paths": [
+    "BEEAudioUtil.framework/*",
+    "BeeCapture.framework/*",
+    "BeeCityPicker.framework/*",
+    "BeeMediaPlayer.framework/*",
+    "BeePhotoBrowser.framework/*",
+    "BeePhotoPicker.framework/*"
+
+  ],
+  "resources": [
+    "BEEAudioUtil.framework/*.bundle",
+    "BeeCapture.framework/*.bundle",
+    "BeeCityPicker.framework/*.bundle",
+    "BeeMediaPlayer.framework/*.bundle",
+    "BeePhotoBrowser.framework/*.bundle",
+    "BeePhotoPicker.framework/*.bundle"
+  ],
+  "frameworks": [
+    "MediaPlayer"
+  ],
+  "dependencies": {
+    "APMobileLBS": [],
+    "APMobileNetwork": [],
+    "MPMultimedia": [],
+    "NebulaHeader": []
+  },
+  "vendored_frameworks": [
+    "BEEAudioUtil.framework",
+    "BeeCapture.framework",
+    "BeeCityPicker.framework",
+    "BeeMediaPlayer.framework",
+    "BeePhotoBrowser.framework",
+    "BeePhotoPicker.framework"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": [
+      "$(PODS_ROOT)/BEEAudioUtil",
+      "$(PODS_ROOT)/BeeCapture",
+      "$(PODS_ROOT)/BeeCityPicker",
+      "$(PODS_ROOT)/BeeMediaPlayer",
+      "$(PODS_ROOT)/BeePhotoBrowser",
+      "$(PODS_ROOT)/BeePhotoPicker"
+    ]
+  }
+}

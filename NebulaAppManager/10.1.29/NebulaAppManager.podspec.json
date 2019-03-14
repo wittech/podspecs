@@ -1,0 +1,25 @@
+{
+  "name": "NebulaAppManager",
+  "version": "10.1.29",
+  "summary": "NebulaAppManager - 支付宝钱包NebulaAppManager类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulaAppManager",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-OPEN/NebulaAppManager/10_1_29.tgz"
+  },
+  "preserve_paths": "NebulaAppManager.framework/*",
+  "resources": "NebulaAppManager.framework/*.bundle",
+  "vendored_frameworks": "NebulaAppManager.framework",
+  "libraries": "bz2",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaAppManager"
+  }
+}

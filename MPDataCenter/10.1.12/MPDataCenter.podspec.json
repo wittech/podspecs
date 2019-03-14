@@ -1,0 +1,30 @@
+{
+  "name": "MPDataCenter",
+  "version": "10.1.12",
+  "summary": "MAS接口库.",
+  "description": "MAS接口库.",
+  "homepage": "http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPDataCenter",
+  "license": "MIT",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-OPEN/MPDataCenter/10_1_12.tgz"
+  },
+  "vendored_frameworks": "MPDataCenter.framework",
+  "libraries": [
+    "sqlite3",
+    "xml2"
+  ],
+  "preserve_paths": "MPDataCenter.framework/*",
+  "requires_arc": true,
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
+  },
+  "dependencies": {
+    "mPaas": []
+  }
+}

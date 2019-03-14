@@ -1,0 +1,45 @@
+{
+  "name": "MPUpgradeCheckService",
+  "version": "10.1.20",
+  "summary": "MPUpgradeCheckService",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPUpgradeCheckService",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Repository/MPUpgradeCheckService/10_1_20.tar.gz"
+  },
+  "preserve_paths": [
+    "AliUpgradeCheckService.framework/*",
+    "AliUpgradeSDK.framework/*",
+    "AliUpgradeUI.framework/*"
+  ],
+  "resources": [
+    "AliUpgradeCheckService.framework/*.bundle",
+    "AliUpgradeSDK.framework/*.bundle",
+    "AliUpgradeUI.framework/*.bundle"
+  ],
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APRemoteLogging": [],
+    "APLog": []
+  },
+  "vendored_frameworks": [
+    "AliUpgradeCheckService.framework",
+    "AliUpgradeSDK.framework",
+    "AliUpgradeUI.framework"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": [
+      "$(PODS_ROOT)/AliUpgradeCheckService",
+      "$(PODS_ROOT)/AliUpgradeSDK",
+      "$(PODS_ROOT)/AliUpgradeUI"
+    ]
+  }
+}

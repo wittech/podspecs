@@ -1,0 +1,26 @@
+{
+  "name": "MBProgressHUD",
+  "version": "10.1.27",
+  "summary": "MBProgressHUD - 类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.xxx.com/MBProgressHUD",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-OPEN/MBProgressHUD/10_1_27.tgz"
+  },
+  "preserve_paths": "MBProgressHUD.framework/*",
+  "resources": "MBProgressHUD.framework/*.bundle",
+  "vendored_frameworks": [
+    "MBProgressHUD.framework"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MBProgressHUD"
+  }
+}

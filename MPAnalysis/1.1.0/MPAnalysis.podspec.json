@@ -1,0 +1,23 @@
+{
+  "name": "MPAnalysis",
+  "version": "1.1.0",
+  "summary": "MAS接口库.",
+  "description": "MAS接口库.",
+  "homepage": "http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPAnalysis",
+  "license": "MIT",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-OPEN/MPAnalysis/1_1_0.tgz"
+  },
+  "vendored_frameworks": "MPAnalysis.framework",
+  "preserve_paths": "MPAnalysis.framework/*",
+  "requires_arc": true,
+  "dependencies": {
+    "mPaas": []
+  }
+}

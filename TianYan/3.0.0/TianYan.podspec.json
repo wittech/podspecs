@@ -1,0 +1,24 @@
+{
+  "name": "TianYan",
+  "version": "3.0.0",
+  "summary": "TianYan - 支付宝钱包TianYan类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/TianYan",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-OPEN/TianYan/3_0_0.tgz"
+  },
+  "preserve_paths": "TianYan.framework/*",
+  "resources": "TianYan.framework/*.bundle",
+  "vendored_frameworks": "TianYan.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/TianYan"
+  }
+}

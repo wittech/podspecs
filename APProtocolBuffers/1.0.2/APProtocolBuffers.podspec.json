@@ -1,0 +1,24 @@
+{
+  "name": "APProtocolBuffers",
+  "version": "1.0.2",
+  "summary": "APProtocolBuffers - 支付宝钱包APProtocolBuffers类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APProtocolBuffers",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-OPEN/APProtocolBuffers/1_0_2.tgz"
+  },
+  "preserve_paths": "APProtocolBuffers.framework/*",
+  "resources": "APProtocolBuffers.framework/*.bundle",
+  "vendored_frameworks": "APProtocolBuffers.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APProtocolBuffers"
+  }
+}

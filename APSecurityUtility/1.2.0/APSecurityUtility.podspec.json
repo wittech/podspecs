@@ -1,0 +1,24 @@
+{
+  "name": "APSecurityUtility",
+  "version": "1.2.0",
+  "summary": "APSecurityUtility - 支付宝钱包APSecurityUtility类库",
+  "description": "*",
+  "homepage": "http://www.alipay.com/APSecurityUtility",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-OPEN/APSecurityUtility/1_2_0.tgz"
+  },
+  "preserve_paths": "APSecurityUtility.framework/*",
+  "resources": "APSecurityUtility.framework/*.bundle",
+  "vendored_frameworks": "APSecurityUtility.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APSecurityUtility"
+  }
+}

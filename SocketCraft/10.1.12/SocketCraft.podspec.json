@@ -1,0 +1,24 @@
+{
+  "name": "SocketCraft",
+  "version": "10.1.12",
+  "summary": "SocketCraft - SocketCraft类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/SocketCraft",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-OPEN/SocketCraft/10_1_12.tgz"
+  },
+  "preserve_paths": "SocketCraft.framework/*",
+  "resources": "SocketCraft.framework/*.bundle",
+  "vendored_frameworks": "SocketCraft.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/SocketCraft"
+  }
+}

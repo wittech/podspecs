@@ -1,0 +1,35 @@
+{
+  "name": "MPShareKit",
+  "version": "3.1.1",
+  "summary": "分享库",
+  "description": "mPaaS社交分享库，包括微信、qq、微博、钉钉、支付宝登渠道",
+  "homepage": "http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPShareKit",
+  "license": "MIT",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-OPEN/MPShareKit/3_1_1.tgz"
+  },
+  "vendored_frameworks": [
+    "MPShareKit.framework",
+    "MPShareKit/Libraries/QQ/TencentOpenAPI.framework"
+  ],
+  "vendored_libraries": [
+    "MPShareKit/Libraries/libAPOpenSdkX.a",
+    "MPShareKit/Libraries/DingTalk/libDTShareSDK.a",
+    "MPShareKit/Libraries/Weixin/libWeChatSDK.a",
+    "MPShareKit/Libraries/libWeiboSDK/libWeiboSDK.a",
+    "MPShareKit/Libraries/QQ/TencentOpenAPI.framework/TencentOpenAPI"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "resources": "MPShareKit.framework/*.bundle",
+  "preserve_paths": "MPShareKit.framework/*",
+  "requires_arc": true
+}

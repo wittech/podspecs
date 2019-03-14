@@ -1,0 +1,60 @@
+{
+  "name": "TinyApp",
+  "version": "10.1.15",
+  "summary": "TinyApp",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/TinyApp",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Repository/TinyApp/10_1_15.tar.gz"
+  },
+  "preserve_paths": [
+    "NebulaAppBiz.framework/*",
+    "NebulaBiz.framework/*",
+    "NebulamPaaSPlugins.framework/*",
+    "NebulaTinyapp.framework/*",
+    "TinyAppCommon.framework/*"
+  ],
+  "resources": [
+    "NebulaAppBiz.framework/*.bundle",
+    "NebulaBiz.framework/*.bundle",
+    "NebulaTinyapp.framework/*.bundle"
+  ],
+  "frameworks": [
+    "EventKit"
+  ],
+  "dependencies": {
+    "AlipaySDK": [],
+    "APMap": [],
+    "BeeHive": [],
+    "MPShareKit": [],
+    "TBScanSDK": [],
+    "MPBadgeService": [],
+    "NebulamPaaSBiz": [],
+    "NebulaLogging": [],
+    "SocketCraft": []
+  },
+  "vendored_frameworks": [
+    "NebulaAppBiz.framework",
+    "NebulaBiz.framework",
+    "NebulamPaaSPlugins.framework",
+    "NebulaTinyapp.framework",
+    "TinyAppCommon.framework"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": [
+      "$(PODS_ROOT)/NebulaAppBiz",
+      "$(PODS_ROOT)/NebulaBiz",
+      "$(PODS_ROOT)/NebulamPaaSPlugins",
+      "$(PODS_ROOT)/NebulaTinyapp",
+      "$(PODS_ROOT)/TinyAppCommon"
+    ]
+  }
+}
