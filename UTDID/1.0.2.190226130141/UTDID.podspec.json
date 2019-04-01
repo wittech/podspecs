@@ -1,0 +1,24 @@
+{
+  "name": "UTDID",
+  "version": "1.0.2.190226130141",
+  "summary": "UTDID - 淘宝UTDID类库",
+  "description": "* 淘宝提供的统一标识。\n* @苍泽",
+  "homepage": "http://www.alipay.com/UTDID",
+  "license": "MIT (example)",
+  "authors": {
+    "wenbi": "wenbi@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/UTDID/1_0_2_190226130141.tar.gz"
+  },
+  "preserve_paths": "UTDID.framework/*",
+  "resources": "UTDID.framework/*.bundle",
+  "vendored_frameworks": "UTDID.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/UTDID"
+  }
+}

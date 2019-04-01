@@ -1,0 +1,24 @@
+{
+  "name": "APOpenSSL",
+  "version": "1.0.0.190226125531",
+  "summary": "APOpenSSL - 支付宝钱包APOpenSSL类库",
+  "description": "*",
+  "homepage": "http://www.alipay.com/APOpenSSL",
+  "license": "MIT (example)",
+  "authors": {
+    "wenbi": "wenbi@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APOpenSSL/1_0_0_190226125531.tar.gz"
+  },
+  "preserve_paths": "APOpenSSL.framework/*",
+  "resources": "APOpenSSL.framework/*.bundle",
+  "vendored_frameworks": "APOpenSSL.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APOpenSSL"
+  }
+}

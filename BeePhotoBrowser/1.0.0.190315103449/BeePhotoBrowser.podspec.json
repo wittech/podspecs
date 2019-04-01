@@ -1,0 +1,35 @@
+{
+  "name": "BeePhotoBrowser",
+  "version": "1.0.0.190315103449",
+  "summary": "BeePhotoBrowser - 支付宝BeePhotoBrowser类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/BeePhotoBrowser",
+  "license": "MIT (example)",
+  "authors": {
+    "晏之": "shijie.sj@alipay.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeePhotoBrowser/1_0_0_190315103449.tar.gz"
+  },
+  "preserve_paths": "BeePhotoBrowser.framework/*",
+  "resources": "BeePhotoBrowser.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APWebImage": [],
+    "APLog": [],
+    "AntUI": [],
+    "BeeMediaPlayer": [],
+    "APMultimedia": [],
+    "APCommonUI": []
+  },
+  "vendored_frameworks": "BeePhotoBrowser.framework",
+  "weak_frameworks": "Photos",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeePhotoBrowser"
+  }
+}

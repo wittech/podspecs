@@ -1,0 +1,28 @@
+{
+  "name": "APMImageProcessing",
+  "version": "1.0.0.190227112605",
+  "summary": "APMImageProcessing - 支付宝钱包APMImageProcessing类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APMImageProcessing",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMImageProcessing/1_0_0_190227112605.tar.gz"
+  },
+  "preserve_paths": "APMImageProcessing.framework/*",
+  "resources": "APMImageProcessing.framework/*.bundle",
+  "dependencies": {
+    "Texel": [],
+    "APMUtils": []
+  },
+  "vendored_frameworks": "APMImageProcessing.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMImageProcessing"
+  }
+}

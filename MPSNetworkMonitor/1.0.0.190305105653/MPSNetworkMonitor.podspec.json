@@ -1,0 +1,32 @@
+{
+  "name": "MPSNetworkMonitor",
+  "version": "1.0.0.190305105653",
+  "summary": "MPSNetworkMonitor - MPSNetworkMonitor",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPSNetworkMonitor",
+  "license": "MIT",
+  "authors": {
+    "未定义": "mingyu.ymy@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPSNetworkMonitor/1_0_0_190305105653.tar.gz"
+  },
+  "preserve_paths": "MPSNetworkMonitor.framework/*",
+  "dependencies": {
+    "NebulaSDK": [],
+    "APMobileNetwork": [],
+    "SocketRocket": [],
+    "MASSProxy": [],
+    "APRemoteLogging": [],
+    "MPMgsAdapter": [],
+    "TinyAppCommon": []
+  },
+  "vendored_frameworks": "MPSNetworkMonitor.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPSNetworkMonitor"
+  }
+}

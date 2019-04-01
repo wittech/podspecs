@@ -1,0 +1,33 @@
+{
+  "name": "APConfig",
+  "version": "1.0.0.190306122627",
+  "summary": "APConfig - 统一开关",
+  "description": "* 统一开关",
+  "homepage": "http://www.alipay.com/APConfig",
+  "license": "MIT",
+  "authors": {
+    "wenbi": "wenbi@alipay.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APConfig/1_0_0_190306122627.tar.gz"
+  },
+  "preserve_paths": "APConfig.framework/*",
+  "dependencies": {
+    "APLog": [],
+    "mPaas": [],
+    "APMobileFramework": [],
+    "APMobileNetwork": [],
+    "APLongLinkService": [],
+    "APRemoteLogging": [],
+    "MPDataCenter": [],
+    "APProtocolBuffers": []
+  },
+  "vendored_frameworks": "APConfig.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APConfig"
+  }
+}

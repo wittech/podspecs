@@ -1,0 +1,24 @@
+{
+  "name": "MAMapKit",
+  "version": "2.4.0.190118153444",
+  "summary": "MAMapKit - 支付宝MAMapKit类库",
+  "description": "* appId: 1000000",
+  "homepage": "http://www.alipay.com/MAMapKit",
+  "license": "MIT (example)",
+  "authors": {
+    "wenbi": "wenbi@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MAMapKit/2_4_0_190118153444.tar.gz"
+  },
+  "preserve_paths": "MAMapKit.framework/*",
+  "resources": "MAMapKit.framework/Resources/*.bundle",
+  "vendored_frameworks": "MAMapKit.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MAMapKit"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "MPBadgeService",
+  "version": "1.0.0.181024211440",
+  "summary": "MPBadgeService - 支付宝MPBadgeService类库",
+  "description": "* 红点服务",
+  "homepage": "http://www.alipay.com/MPBadgeService",
+  "license": "MIT (example)",
+  "authors": {
+    "妙玄": "liangbao.llb@alibaba-inc.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPBadgeService/1_0_0_181024211440.tar.gz"
+  },
+  "preserve_paths": "MPBadgeService.framework/*",
+  "resources": "MPBadgeService.framework/*.bundle",
+  "dependencies": {
+    "MPDataCenter": []
+  },
+  "vendored_frameworks": "MPBadgeService.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPBadgeService"
+  }
+}

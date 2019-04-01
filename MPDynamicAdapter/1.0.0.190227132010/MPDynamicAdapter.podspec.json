@@ -1,0 +1,26 @@
+{
+  "name": "MPDynamicAdapter",
+  "version": "1.0.0.190227132010",
+  "summary": "MPDynamicAdapter - MPDynamicAdapter",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPDynamicAdapter",
+  "license": "MIT",
+  "authors": {
+    "未定义": "mingyu.ymy@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPDynamicAdapter/1_0_0_190227132010.tar.gz"
+  },
+  "preserve_paths": "MPDynamicAdapter.framework/*",
+  "dependencies": {
+    "MPHotpatchSDK": []
+  },
+  "vendored_frameworks": "MPDynamicAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPDynamicAdapter"
+  }
+}

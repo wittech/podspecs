@@ -1,0 +1,32 @@
+{
+  "name": "MPNebulaAdapter",
+  "version": "1.0.0.190319135250",
+  "summary": "MPNebulaAdapter - 支付宝钱包MPNebulaAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPNebulaAdapter",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPNebulaAdapter/1_0_0_190319135250.tar.gz"
+  },
+  "preserve_paths": "MPNebulaAdapter.framework/*",
+  "resources": "MPNebulaAdapter.framework/*.bundle",
+  "dependencies": {
+    "NebulaSDK": [],
+    "NebulamPaaSBiz": [],
+    "NebulaLogging": [],
+    "mPaas": [],
+    "APMobileNetwork": [],
+    "AntUI": []
+  },
+  "vendored_frameworks": "MPNebulaAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPNebulaAdapter"
+  }
+}

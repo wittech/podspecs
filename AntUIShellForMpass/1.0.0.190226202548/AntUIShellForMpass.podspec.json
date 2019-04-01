@@ -1,0 +1,27 @@
+{
+  "name": "AntUIShellForMpass",
+  "version": "1.0.0.190226202548",
+  "summary": "AntUIShellForMpass - 支付宝钱包AntUIShellForMpass类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AntUIShellForMpass",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AntUIShellForMpass/1_0_0_190226202548.tar.gz"
+  },
+  "preserve_paths": "AntUIShellForMpass.framework/*",
+  "dependencies": {
+    "AntUI": [],
+    "MPBadgeService": []
+  },
+  "vendored_frameworks": "AntUIShellForMpass.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AntUIShellForMpass"
+  }
+}
