@@ -1,0 +1,27 @@
+{
+  "name": "NebulaHeader",
+  "version": "1.0.0.190403130019",
+  "summary": "支付宝钱包NebulaHeader类库",
+  "description": "支付宝钱包NebulaHeader类库",
+  "homepage": "http://gitlab.alipay-inc.com/groups/mPaaS_iOS/NebulaHeader",
+  "license": "MIT",
+  "authors": {
+    "lin.weng": "lin.weng@alipay.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaHeader/1_0_0_190403130019.tar.gz"
+  },
+  "dependencies": {
+    "NebulaPoseidon": [],
+    "NebulaSDK": [],
+    "APLog": [],
+    "APWebImage": []
+  },
+  "vendored_frameworks": "NebulaHeader.framework",
+  "preserve_paths": "NebulaHeader.framework/*",
+  "requires_arc": true,
+  "weak_frameworks": "Foundation"
+}
