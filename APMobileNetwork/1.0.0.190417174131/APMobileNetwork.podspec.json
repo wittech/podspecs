@@ -1,0 +1,31 @@
+{
+  "name": "APMobileNetwork",
+  "version": "1.0.0.190417174131",
+  "summary": "APMobileNetwork - A set of classes for network access",
+  "description": "* A set of classes for network access",
+  "homepage": "http://www.alipay.com/APMobileNetwork",
+  "license": "MIT (example)",
+  "authors": {
+    "wenbi": "wenbi@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMobileNetwork/1_0_0_190417174131.tar.gz"
+  },
+  "preserve_paths": "APMobileNetwork.framework/*",
+  "resources": "APMobileNetwork.framework/*.bundle",
+  "frameworks": "CoreMotion",
+  "dependencies": {
+    "SecurityGuardSDK": [],
+    "APSecurityUtility": [],
+    "mPaas": [],
+    "APOpenSSL": []
+  },
+  "vendored_frameworks": "APMobileNetwork.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMobileNetwork"
+  }
+}
