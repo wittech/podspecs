@@ -1,0 +1,32 @@
+{
+  "name": "MPNebulaSDKPlugins",
+  "version": "1.0.0.190425122504",
+  "summary": "MPNebulaSDKPlugins - 支付宝钱包MPNebulaSDKPlugins类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPNebulaSDKPlugins",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPNebulaSDKPlugins/1_0_0_190425122504.tar.gz"
+  },
+  "preserve_paths": "MPNebulaSDKPlugins.framework/*",
+  "resources": "MPNebulaSDKPlugins.framework/*.bundle",
+  "dependencies": {
+    "NebulaSDK": [],
+    "NebulaAppManager": [],
+    "APMobileNetwork": [],
+    "APCommonUI": [],
+    "APMobileFramework": [],
+    "MPDataCenter": []
+  },
+  "vendored_frameworks": "MPNebulaSDKPlugins.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPNebulaSDKPlugins"
+  }
+}
