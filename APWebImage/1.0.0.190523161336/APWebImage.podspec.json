@@ -1,0 +1,25 @@
+{
+  "name": "APWebImage",
+  "version": "1.0.0.190523161336",
+  "summary": "APWebImage - 支付宝钱包APWebImage类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APWebImage",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APWebImage/1_0_0_190523161336.tar.gz"
+  },
+  "preserve_paths": "APWebImage.framework/*",
+  "resources": "APWebImage.framework/*.bundle",
+  "frameworks": "MapKit",
+  "vendored_frameworks": "APWebImage.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APWebImage"
+  }
+}
