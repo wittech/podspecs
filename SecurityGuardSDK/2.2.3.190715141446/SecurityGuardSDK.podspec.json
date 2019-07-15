@@ -1,0 +1,32 @@
+{
+  "name": "SecurityGuardSDK",
+  "version": "2.2.3.190715141446",
+  "summary": "SecurityGuardSDK - 支付宝钱包SecurityGuardSDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/SecurityGuardSDK",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "shaobin.csb@alibaba-inc.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/SecurityGuardSDK/2_2_3_190715141446.tar.gz"
+  },
+  "preserve_paths": "SecurityGuardSDK.framework/*",
+  "frameworks": "CoreMotion",
+  "vendored_frameworks": [
+    "SecurityGuardSDK.framework",
+    "SGIndieKit.framework",
+    "SGMain.framework",
+    "SGNoCaptcha.framework",
+    "SGSecurityBody.framework",
+    "SGUATrace.framework",
+    "SGAVMP.framework"
+  ],
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/SecurityGuardSDK"
+  }
+}
