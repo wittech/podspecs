@@ -1,0 +1,36 @@
+{
+  "name": "NebulaAuth",
+  "version": "1.0.0.190723163908",
+  "summary": "NebulaAuth - 支付宝钱包NebulaAuth类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulaAuth",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaAuth/1_0_0_190723163908.tar.gz"
+  },
+  "preserve_paths": "NebulaAuth.framework/*",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "Nebula": [],
+    "NebulaAppBiz": [],
+    "NebulaBiz": [],
+    "NebulaSecurity": [],
+    "NebulaTinyAppDebug": [],
+    "NebulaSDK": [],
+    "InsideSDK": [],
+    "mPaas": [],
+    "NebulaSDKPlugins": []
+  },
+  "vendored_frameworks": "NebulaAuth.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaAuth"
+  }
+}
