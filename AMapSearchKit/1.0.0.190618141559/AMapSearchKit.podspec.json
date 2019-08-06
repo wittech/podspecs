@@ -1,0 +1,24 @@
+{
+  "name": "AMapSearchKit",
+  "version": "1.0.0.190618141559",
+  "summary": "AMapSearchKit - 支付宝AMapSearchKit类库",
+  "description": "* appId: 1000000",
+  "homepage": "http://www.alipay.com/AMapSearchKit",
+  "license": "MIT (example)",
+  "authors": {
+    "wenbi": "wenbi@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AMapSearchKit/1_0_0_190618141559.tar.gz"
+  },
+  "preserve_paths": "AMapSearchKit.framework/*",
+  "resources": "AMapSearchKit.framework/*.bundle",
+  "vendored_frameworks": "AMapSearchKit.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AMapSearchKit"
+  }
+}

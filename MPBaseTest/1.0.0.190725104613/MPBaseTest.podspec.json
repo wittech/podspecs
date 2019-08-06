@@ -1,0 +1,28 @@
+{
+  "name": "MPBaseTest",
+  "version": "1.0.0.190725104613",
+  "summary": "移动网关 Demo",
+  "description": "移动网关相关功能 demo，包括：",
+  "homepage": "https://tech.antfin.com/products/MPAAS",
+  "license": "MIT",
+  "authors": {
+    "shifei": "shifei.wkp@antfin.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPBaseTest/1_0_0_190725104613.tar.gz"
+  },
+  "vendored_frameworks": "MPBaseTest.framework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "resources": "MPBaseTest.framework/*.bundle",
+  "preserve_paths": "MPBaseTest.framework/*",
+  "dependencies": {
+    "APLog": []
+  },
+  "requires_arc": true
+}

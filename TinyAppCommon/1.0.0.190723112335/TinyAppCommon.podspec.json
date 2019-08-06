@@ -1,0 +1,35 @@
+{
+  "name": "TinyAppCommon",
+  "version": "1.0.0.190723112335",
+  "summary": "TinyAppCommon - 支付宝钱包TinyAppCommon类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/TinyAppCommon",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/TinyAppCommon/1_0_0_190723112335.tar.gz"
+  },
+  "preserve_paths": "TinyAppCommon.framework/*",
+  "resources": "TinyAppCommon.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "Nebula": [],
+    "APMultimedia": [],
+    "SocketCraft": [],
+    "NebulaTinyapp": [],
+    "NebulaConfig": [],
+    "mPaas": [],
+    "AntUI": []
+  },
+  "vendored_frameworks": "TinyAppCommon.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/TinyAppCommon"
+  }
+}

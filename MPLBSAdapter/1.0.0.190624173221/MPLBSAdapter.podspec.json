@@ -1,0 +1,28 @@
+{
+  "name": "MPLBSAdapter",
+  "version": "1.0.0.190624173221",
+  "summary": "定位adapter",
+  "description": "定位组件adapter",
+  "homepage": "https://tech.antfin.com/products/MPAAS",
+  "license": "MIT",
+  "authors": {
+    "shifei": "shifei.wkp@antfin.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPLBSAdapter/1_0_0_190624173221.tar.gz"
+  },
+  "vendored_frameworks": "MPLBSAdapter.framework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "resources": "MPLBSAdapter.framework/*.bundle",
+  "preserve_paths": "MPLBSAdapter.framework/*",
+  "dependencies": {
+    "APMobileLBS": []
+  },
+  "requires_arc": true
+}

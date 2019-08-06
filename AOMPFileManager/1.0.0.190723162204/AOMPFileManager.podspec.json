@@ -1,0 +1,41 @@
+{
+  "name": "AOMPFileManager",
+  "version": "1.0.0.190723162204",
+  "summary": "AOMPFileManager - 支付宝钱包AOMPFileManager类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AOMPFileManager",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AOMPFileManager/1_0_0_190723162204.tar.gz"
+  },
+  "preserve_paths": "AOMPFileManager.framework/*",
+  "resources": "AOMPFileManager.framework/*.bundle",
+  "dependencies": {
+    "Nebula": [],
+    "NebulaSDK": [],
+    "NebulaAppManager": [],
+    "NebulaPoseidon": [],
+    "APMultimedia": [],
+    "APMobileFramework": [],
+    "NebulaKernel": [],
+    "NebulaTinyAppDebug": [],
+    "MPDataCenter": [],
+    "APConfig": [],
+    "APMobileNetwork": [],
+    "MASSProxy": [],
+    "TinyAppCommon": [],
+    "mPaas": []
+  },
+  "frameworks": "QuickLook",
+  "vendored_frameworks": "AOMPFileManager.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AOMPFileManager"
+  }
+}

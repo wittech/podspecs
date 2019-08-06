@@ -1,0 +1,29 @@
+{
+  "name": "MPDevHelper",
+  "version": "1.0.0.190725105537",
+  "summary": "MPaaS 开发助手",
+  "description": "",
+  "homepage": "http://EXAMPLE/MPDevHelper",
+  "license": "MIT (example)",
+  "authors": {
+    "阔悬": "lq169592@antfin.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPDevHelper/1_0_0_190725105537.tar.gz"
+  },
+  "preserve_paths": "MPDevHelper.framework/*",
+  "resources": "MPDevHelper.framework/*.bundle",
+  "vendored_frameworks": "MPDevHelper.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPDevHelper"
+  },
+  "dependencies": {
+    "NebulaAppManager": [],
+    "NebulaSDK": [],
+    "APRemoteLogging": []
+  }
+}

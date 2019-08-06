@@ -1,0 +1,31 @@
+{
+  "name": "AliUpgradeCheckService",
+  "version": "1.0.0.190618143831",
+  "summary": "AliUpgradeCheckService - 支付宝钱包AliUpgradeCheckService类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AliUpgradeCheckService",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AliUpgradeCheckService/1_0_0_190618143831.tar.gz"
+  },
+  "preserve_paths": "AliUpgradeCheckService.framework/*",
+  "resources": "AliUpgradeCheckService.framework/*.bundle",
+  "dependencies": {
+    "AliUpgradeUI": [],
+    "APMobileNetwork": [],
+    "APRemoteLogging": [],
+    "APLog": [],
+    "APLongLinkService": []
+  },
+  "vendored_frameworks": "AliUpgradeCheckService.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AliUpgradeCheckService"
+  }
+}

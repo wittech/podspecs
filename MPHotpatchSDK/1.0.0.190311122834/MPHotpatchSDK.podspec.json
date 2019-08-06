@@ -1,0 +1,35 @@
+{
+  "name": "MPHotpatchSDK",
+  "version": "1.0.0.190311122834",
+  "summary": "hotpatch热修复库",
+  "description": "mPaaS对外提供版本，可通过 APP Store审核",
+  "homepage": "http://http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPHotpatchSDK",
+  "license": "MIT",
+  "authors": {
+    "夜禹": "mingyu.ymy@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPHotpatchSDK/1_0_0_190311122834.tar.gz"
+  },
+  "vendored_frameworks": "MPHotpatchSDK.framework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "resources": "MPHotpatchSDK.framework/*.bundle",
+  "preserve_paths": "MPHotpatchSDK.framework/*",
+  "dependencies": {
+    "SecurityGuardSDK": [],
+    "APProtocolBuffers": [],
+    "APRemoteLogging": [],
+    "APLongLinkService": [],
+    "mPaas": [],
+    "APMobileNetwork": [],
+    "APOpenSSL": [],
+    "MPMpaaSService": []
+  },
+  "requires_arc": true
+}

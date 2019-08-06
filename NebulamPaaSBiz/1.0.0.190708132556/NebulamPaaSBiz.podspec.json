@@ -1,0 +1,32 @@
+{
+  "name": "NebulamPaaSBiz",
+  "version": "1.0.0.190708132556",
+  "summary": "NebulaSDK - Nebula类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/Nebula",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulamPaaSBiz/1_0_0_190708132556.tar.gz"
+  },
+  "preserve_paths": "NebulamPaaSBiz.framework/*",
+  "dependencies": {
+    "NebulaSDK": [],
+    "NebulaAppManager": [],
+    "MPDataCenter": [],
+    "NebulaLogging": [],
+    "MASSProxy": [],
+    "MASSChannel": [],
+    "MPMpaaSService": []
+  },
+  "vendored_frameworks": "NebulamPaaSBiz.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulamPaaSBiz"
+  }
+}

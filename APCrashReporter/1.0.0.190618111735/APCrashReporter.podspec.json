@@ -1,0 +1,29 @@
+{
+  "name": "APCrashReporter",
+  "version": "1.0.0.190618111735",
+  "summary": "APCrashReporter",
+  "description": "",
+  "homepage": "http://www.alipay.com/APCrashReporter",
+  "license": "MIT (example)",
+  "authors": {
+    "wenbi": "wenbi@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APCrashReporter/1_0_0_190618111735.tar.gz"
+  },
+  "preserve_paths": "APCrashReporter.framework/*",
+  "resources": "APCrashReporter.framework/*.bundle",
+  "dependencies": {
+    "APLog": [],
+    "mPaas": [],
+    "APRemoteLogging": []
+  },
+  "vendored_frameworks": "APCrashReporter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APCrashReporter"
+  }
+}

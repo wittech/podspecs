@@ -1,0 +1,30 @@
+{
+  "name": "MPComponentDiagnose",
+  "version": "1.0.0.190725140651",
+  "summary": "组件功能诊断",
+  "description": "组件功能诊断，包括：",
+  "homepage": "https://tech.antfin.com/products/MPAAS",
+  "license": "MIT",
+  "authors": {
+    "yeyu": ""
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPComponentDiagnose/1_0_0_190725140651.tar.gz"
+  },
+  "vendored_frameworks": "MPComponentDiagnose.framework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "resources": "MPComponentDiagnose.framework/*.bundle",
+  "preserve_paths": "MPComponentDiagnose.framework/*",
+  "dependencies": {
+    "MPDevHelper": [],
+    "MPBaseTest": [],
+    "APLog": []
+  },
+  "requires_arc": true
+}

@@ -1,0 +1,26 @@
+{
+  "name": "APMCache",
+  "version": "1.0.0.190618155459",
+  "summary": "APMCache - 支付宝钱包APMCache类库",
+  "description": "* 多媒体缓存库",
+  "homepage": "http://www.alipay.com/APMCache",
+  "license": "MIT (example)",
+  "authors": {
+    "feihu": "feihu.yfh@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMCache/1_0_0_190618155459.tar.gz"
+  },
+  "preserve_paths": "APMCache.framework/*",
+  "dependencies": {
+    "APMUtils": []
+  },
+  "vendored_frameworks": "APMCache.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMCache"
+  }
+}

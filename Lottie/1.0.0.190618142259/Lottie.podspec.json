@@ -1,0 +1,25 @@
+{
+  "name": "Lottie",
+  "version": "1.0.0.190618142259",
+  "summary": "Lottie - 支付宝钱包Lottie类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/Lottie",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/Lottie/1_0_0_190618142259.tar.gz"
+  },
+  "preserve_paths": "Lottie.framework/*",
+  "resources": "Lottie.framework/*.bundle",
+  "frameworks": "GLKit",
+  "vendored_frameworks": "Lottie.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/Lottie"
+  }
+}

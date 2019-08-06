@@ -1,0 +1,35 @@
+{
+  "name": "APMobileLBS",
+  "version": "1.0.1.190729110755",
+  "summary": "APMobileLBS - 支付宝APMobileLBS类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APMobileLBS",
+  "license": "MIT (example)",
+  "authors": {
+    "天作": "sen.wangs@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMobileLBS/1_0_1_190729110755.tar.gz"
+  },
+  "preserve_paths": "APMobileLBS.framework/*",
+  "frameworks": "CoreLocation",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APProtocolBuffers": [],
+    "APRemoteLogging": [],
+    "MPDataCenter": [],
+    "AMapFoundationKit": [],
+    "MAMapKit": [],
+    "APLog": [],
+    "mPaas": [],
+    "Nebula": []
+  },
+  "vendored_frameworks": "APMobileLBS.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMobileLBS"
+  }
+}
