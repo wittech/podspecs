@@ -1,0 +1,55 @@
+{
+  "name": "APMultimedia",
+  "version": "1.0.0.190809162139",
+  "summary": "APMultimedia - 支付宝APMultimedia类库",
+  "description": "* 多媒体组件，包括图片、音频、视频及其上下载通道",
+  "homepage": "http://www.alipay.com/APMultimedia",
+  "license": "MIT (example)",
+  "authors": {
+    "秦少": "monster.fx@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.1.1"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMultimedia/1_0_0_190809162139.tar.gz"
+  },
+  "preserve_paths": "*.framework/*",
+  "resources": "APMultimedia.framework/*.bundle",
+  "frameworks": [
+    "VideoToolbox",
+    "Photos",
+    "MobileCoreServices",
+    "CoreMedia",
+    "CoreAudio",
+    "MapKit",
+    "AVFoundation",
+    "AudioToolbox",
+    "CoreLocation",
+    "AssetsLibrary"
+  ],
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APRemoteLogging": [],
+    "APConfig": [],
+    "APWebP": [],
+    "MASSProxy": [],
+    "APLog": [],
+    "mPaas": [],
+    "APMUtils": [],
+    "APMBeauty": [],
+    "APMTaskManager": [],
+    "APMImageProcessing": [],
+    "APMAudioProcessing": [],
+    "APMCache": [],
+    "NebulaPoseidon": [],
+    "MPDataCenter": [],
+    "APMCDNImage": []
+  },
+  "vendored_frameworks": "APMultimedia.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "\"$(PODS_ROOT)/APMultimedia\""
+  }
+}
