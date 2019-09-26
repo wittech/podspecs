@@ -12,7 +12,7 @@
     "ios": "5.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AMapFoundationKit/1_0_0_190228135910.tar.gz"
+    "http": "https://mpaas-ios-test.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AMapFoundationKit/1_0_0_190228135910.tar.gz"
   },
   "preserve_paths": "AMapFoundationKit.framework/*",
   "resources": "AMapFoundationKit.framework/*.bundle",
