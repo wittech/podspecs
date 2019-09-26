@@ -1,0 +1,27 @@
+{
+  "name": "NebulaKernel",
+  "version": "1.0.0.190906170603",
+  "summary": "NebulaKernel - 支付宝钱包NebulaKernel类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulaKernel",
+  "license": "MIT",
+  "authors": {
+    "崔护": "lin.weng@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaKernel/1_0_0_190906170603.tar.gz"
+  },
+  "preserve_paths": "NebulaKernel.framework/*",
+  "resources": "NebulaKernel.framework/*.bundle",
+  "dependencies": {
+    "NebulaPoseidon": []
+  },
+  "vendored_frameworks": "NebulaKernel.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaKernel"
+  }
+}

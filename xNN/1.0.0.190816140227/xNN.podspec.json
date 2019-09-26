@@ -1,0 +1,26 @@
+{
+  "name": "xNN",
+  "version": "1.0.0.190816140227",
+  "summary": "xNN - 支付宝钱包xNN类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/xNN",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/xNN/1_0_0_190816140227.tar.gz"
+  },
+  "preserve_paths": "xNN.framework/*",
+  "resources": "xNN.framework/*.bundle",
+  "dependencies": {
+    "APScripts": []
+  },
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/xNN"
+  }
+}

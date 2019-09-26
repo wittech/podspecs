@@ -1,0 +1,38 @@
+{
+  "name": "BeeCityPicker",
+  "version": "1.0.0.190815210740",
+  "summary": "BeeCityPicker - 支付宝BeeCityPicker类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/BeeCityPicker",
+  "license": "MIT (example)",
+  "authors": {
+    "晏之": "shijie.sj@alibaba-inc.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeeCityPicker/1_0_0_190815210740.tar.gz"
+  },
+  "preserve_paths": "BeeCityPicker.framework/*",
+  "resources": "BeeCityPicker.framework/*.bundle",
+  "dependencies": {
+    "APCommonUI": [],
+    "APMobileFramework": [],
+    "mPaas": [],
+    "APLog": [],
+    "AntUI": [],
+    "APRemoteLogging": [],
+    "APConfig": [],
+    "NebulaHeader": [],
+    "APMobileLBS": [],
+    "NebulaPoseidon": [],
+    "NebulaSDK": [],
+    "NebulaAppManager": []
+  },
+  "vendored_frameworks": "BeeCityPicker.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeeCityPicker"
+  }
+}

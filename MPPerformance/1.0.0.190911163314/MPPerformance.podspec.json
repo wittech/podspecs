@@ -1,0 +1,26 @@
+{
+  "name": "MPPerformance",
+  "version": "1.0.0.190911163314",
+  "summary": "MAS接口库.",
+  "description": "MAS接口库.",
+  "homepage": "http://http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPPerformance",
+  "license": "MIT",
+  "authors": {
+    "夜禹": "mingyu.ymy@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPPerformance/1_0_0_190911163314.tar.gz"
+  },
+  "vendored_frameworks": "MPPerformance.framework",
+  "preserve_paths": "MPPerformance.framework/*",
+  "requires_arc": true,
+  "dependencies": {
+    "TianYan": [],
+    "APRemoteLogging": [],
+    "MPDataCenter": [],
+    "AutoTracker": []
+  }
+}

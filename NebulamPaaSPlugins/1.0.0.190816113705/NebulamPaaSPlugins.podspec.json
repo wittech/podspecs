@@ -1,0 +1,32 @@
+{
+  "name": "NebulamPaaSPlugins",
+  "version": "1.0.0.190816113705",
+  "summary": "NebulamPaaSPlugins - 支付宝钱包NebulamPaaSPlugins类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulamPaaSPlugins",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulamPaaSPlugins/1_0_0_190816113705.tar.gz"
+  },
+  "preserve_paths": "NebulamPaaSPlugins.framework/*",
+  "resources": "NebulamPaaSPlugins.framework/*.bundle",
+  "dependencies": {
+    "MPShareKit": [],
+    "APCommonUI": [],
+    "APMobileFramework": [],
+    "NebulaSDK": [],
+    "NebulaHeader": [],
+    "APMultimedia": []
+  },
+  "vendored_frameworks": "NebulamPaaSPlugins.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulamPaaSPlugins"
+  }
+}

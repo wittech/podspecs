@@ -1,0 +1,31 @@
+{
+  "name": "MPOcr",
+  "version": "1.0.0.190820212637",
+  "summary": "OCR",
+  "description": "OCR 识别",
+  "homepage": "https://tech.antfin.com/products/MPAAS",
+  "license": "MIT",
+  "authors": {
+    "shifei": "shifei.wkp@antfin.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPOcr/1_0_0_190820212637.tar.gz"
+  },
+  "vendored_frameworks": "MPOcr.framework",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "resources": "MPOcr.framework/*.bundle",
+  "preserve_paths": "MPOcr.framework/*",
+  "dependencies": {
+    "mPaas": [],
+    "XMedia": [],
+    "APMUtils": [],
+    "MPLicense": []
+  },
+  "requires_arc": true
+}

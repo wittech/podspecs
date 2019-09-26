@@ -1,0 +1,28 @@
+{
+  "name": "MPSafeKeyboard",
+  "version": "1.0.0.190821205500",
+  "summary": "MPSafeKeyboard - mPaaS 安全键盘",
+  "description": "* Detail about this framework.",
+  "homepage": "http://http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPSafeKeyboard",
+  "license": "MIT",
+  "authors": {
+    "千平": "wenzhao.ywz@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPSafeKeyboard/1_0_0_190821205500.tar.gz"
+  },
+  "preserve_paths": "MPSafeKeyboard.framework/*",
+  "dependencies": {
+    "APOpenSSL": [],
+    "AntUI": [],
+    "MPLicense": []
+  },
+  "vendored_frameworks": "MPSafeKeyboard.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPSafeKeyboard"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "NebulaAppBiz",
+  "version": "1.0.0.190815210041",
+  "summary": "NebulaAppBiz - NebulaAppBiz类库",
+  "description": "NebulaAppBiz类库",
+  "homepage": "http://gitlab.alipay-inc.com/mPaaS_SDK_iOS/NebulaAppBiz",
+  "license": "MIT",
+  "authors": {
+    "扶瑶": "tina.zl@alipay.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaAppBiz/1_0_0_190815210041.tar.gz"
+  },
+  "preserve_paths": "NebulaAppBiz.framework/*",
+  "dependencies": {
+    "APConfig": [],
+    "APCommonUI": [],
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APMultimedia": [],
+    "mPaas": [],
+    "NebulaLogging": [],
+    "NebulaHeader": [],
+    "APLog": [],
+    "MPDataCenter": [],
+    "MASSProxy": []
+  },
+  "vendored_frameworks": "NebulaAppBiz.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaAppBiz"
+  }
+}

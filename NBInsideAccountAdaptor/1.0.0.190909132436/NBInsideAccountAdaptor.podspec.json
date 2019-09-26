@@ -1,0 +1,37 @@
+{
+  "name": "NBInsideAccountAdaptor",
+  "version": "1.0.0.190909132436",
+  "summary": "NBInsideAccountAdaptor - 支付宝钱包NBInsideAccountAdaptor类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NBInsideAccountAdaptor",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NBInsideAccountAdaptor/1_0_0_190909132436.tar.gz"
+  },
+  "preserve_paths": "NBInsideAccountAdaptor.framework/*",
+  "dependencies": {
+    "InsideSDK": [],
+    "APMobileFramework": [],
+    "APMobileNetwork": [],
+    "MPDataCenter": [],
+    "APRemoteLogging": [],
+    "AntUI": [],
+    "NebulaSDK": [],
+    "Nebula": [],
+    "mPaas": [],
+    "NebulaTinyAppDebug": [],
+    "NebulaNetwork": [],
+    "NebulaSDKPlugins": []
+  },
+  "vendored_frameworks": "NBInsideAccountAdaptor.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NBInsideAccountAdaptor"
+  }
+}

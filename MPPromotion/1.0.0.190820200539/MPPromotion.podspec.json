@@ -1,0 +1,38 @@
+{
+  "name": "MPPromotion",
+  "version": "1.0.0.190820200539",
+  "summary": "Promotion - cdp 模块",
+  "description": "* appId: 1000000",
+  "homepage": "http://www.alipay.com/MPPromotion",
+  "license": "MIT (example)",
+  "authors": {
+    "shifei": "shifei.wkp@antfin.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPPromotion/1_0_0_190820200539.tar.gz"
+  },
+  "preserve_paths": "MPPromotion.framework/*",
+  "resources": "MPPromotion.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APCommonUI": [],
+    "APConfig": [],
+    "Nebula": [],
+    "NebulaSDK": [],
+    "NebulaHeader": [],
+    "NebulaBiz": [],
+    "APMobileLBS": [],
+    "SPMTracker": [],
+    "APRemoteLogging": [],
+    "APMultimedia": []
+  },
+  "vendored_frameworks": "MPPromotion.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPPromotion"
+  }
+}

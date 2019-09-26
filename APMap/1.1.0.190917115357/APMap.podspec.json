@@ -1,0 +1,35 @@
+{
+  "name": "APMap",
+  "version": "1.1.0.190917115357",
+  "summary": "APMap - Mobile Framework",
+  "description": "* Context\n* Micro app management\n* Micro service management",
+  "homepage": "http://www.alipay.com/APMap",
+  "license": "MIT (example)",
+  "authors": {
+    "wenbi": "wenbi@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMap/1_1_0_190917115357.tar.gz"
+  },
+  "preserve_paths": "APMap.framework/*",
+  "resources": "APMap.framework/*.bundle",
+  "dependencies": {
+    "APMobileFramework": [],
+    "APMobileNetwork": [],
+    "APRemoteLogging": [],
+    "MAMapKit": [],
+    "APCommonUI": [],
+    "AMapFoundationKit": [],
+    "APLog": [],
+    "APMobileLBS": [],
+    "AntUI": []
+  },
+  "vendored_frameworks": "APMap.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMap"
+  }
+}

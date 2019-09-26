@@ -1,0 +1,26 @@
+{
+  "name": "MPMssAdapter",
+  "version": "1.0.0.190822171230",
+  "summary": "MPMssAdapter - MPMssAdapter",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPMssAdapter",
+  "license": "MIT",
+  "authors": {
+    "未定义": "mingyu.ymy@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPMssAdapter/1_0_0_190822171230.tar.gz"
+  },
+  "preserve_paths": "MPMssAdapter.framework/*",
+  "dependencies": {
+    "APLongLinkService": []
+  },
+  "vendored_frameworks": "MPMssAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPMssAdapter"
+  }
+}

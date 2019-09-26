@@ -1,0 +1,28 @@
+{
+  "name": "AutoTracker",
+  "version": "1.0.0.190816104604",
+  "summary": "AutoTracker - 支付宝钱包AutoTracker类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AutoTracker",
+  "license": "MIT (example)",
+  "authors": {
+    "卡迩": "lj94409@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AutoTracker/1_0_0_190816104604.tar.gz"
+  },
+  "preserve_paths": "AutoTracker.framework/*",
+  "resources": "AutoTracker.framework/*.bundle",
+  "dependencies": {
+    "APRemoteLogging": [],
+    "APLog": []
+  },
+  "vendored_frameworks": "AutoTracker.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AutoTracker"
+  }
+}

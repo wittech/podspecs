@@ -1,0 +1,24 @@
+{
+  "name": "FalconLooks",
+  "version": "1.0.0.190906174604",
+  "summary": "FalconLooks - 支付宝钱包FalconLooks类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/FalconLooks",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/FalconLooks/1_0_0_190906174604.tar.gz"
+  },
+  "preserve_paths": "FalconLooks.framework/*",
+  "resources": "FalconLooks.framework/*.bundle",
+  "vendored_frameworks": "FalconLooks.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/FalconLooks"
+  }
+}

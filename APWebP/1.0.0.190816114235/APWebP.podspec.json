@@ -1,0 +1,22 @@
+{
+  "name": "APWebP",
+  "version": "1.0.0.190816114235",
+  "summary": "APWebP - 支付宝钱包APWebP类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APWebP",
+  "license": "MIT (example)",
+  "authors": "yifeng.wu@alibaba-inc.com",
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APWebP/1_0_0_190816114235.tar.gz"
+  },
+  "preserve_paths": "APWebP.framework/*",
+  "resources": "APWebP.framework/*.bundle",
+  "vendored_frameworks": "APWebP.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APWebP"
+  }
+}

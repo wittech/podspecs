@@ -1,0 +1,27 @@
+{
+  "name": "libCVEngine",
+  "version": "1.0.0.190820205823",
+  "summary": "libCVEngine - 支付宝钱包libCVEngine类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/libCVEngine",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/libCVEngine/1_0_0_190820205823.tar.gz"
+  },
+  "preserve_paths": "libCVEngine.framework/*",
+  "resources": "libCVEngine.framework/*.bundle",
+  "dependencies": {
+    "APScripts": []
+  },
+  "vendored_frameworks": "libCVEngine.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/libCVEngine"
+  }
+}

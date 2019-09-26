@@ -1,0 +1,37 @@
+{
+  "name": "NebulaAppBiz",
+  "version": "1.0.0.190906173518",
+  "summary": "NebulaAppBiz - 支付宝钱包NebulaAppBiz类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulaAppBiz",
+  "license": "MIT (example)",
+  "authors": {
+    "扶瑶": "tina.zl@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaAppBiz/1_0_0_190906173518.tar.gz"
+  },
+  "preserve_paths": "NebulaAppBiz.framework/*",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "NebulaSDK": [],
+    "APLongLinkService": [],
+    "APConfig": [],
+    "AntUI": [],
+    "MPDataCenter": [],
+    "MASSProxy": [],
+    "APLog": [],
+    "Nebula": [],
+    "NebulaLogging": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "NebulaAppBiz.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaAppBiz"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "AMapFoundationKit",
+  "version": "1.0.0.190816140048",
+  "summary": "AMapFoundationKit - 支付宝钱包AMapFoundationKit类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AMapFoundationKit",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AMapFoundationKit/1_0_0_190816140048.tar.gz"
+  },
+  "preserve_paths": "AMapFoundationKit.framework/*",
+  "resources": "AMapFoundationKit.framework/*.bundle",
+  "vendored_frameworks": "AMapFoundationKit.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AMapFoundationKit"
+  }
+}
