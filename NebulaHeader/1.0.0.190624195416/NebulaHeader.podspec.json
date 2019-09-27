@@ -12,7 +12,7 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaHeader/1_0_0_190624195416.tar.gz"
+    "http": "https://mpaas-ios-test.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaHeader/1_0_0_190624195416.tar.gz"
   },
   "dependencies": {
     "NebulaPoseidon": [],

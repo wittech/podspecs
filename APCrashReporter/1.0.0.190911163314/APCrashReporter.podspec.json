@@ -12,7 +12,7 @@
     "ios": "5.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APCrashReporter/1_0_0_190911163314.tar.gz"
+    "http": "https://mpaas-ios-test.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APCrashReporter/1_0_0_190911163314.tar.gz"
   },
   "preserve_paths": "APCrashReporter.framework/*",
   "resources": "APCrashReporter.framework/*.bundle",

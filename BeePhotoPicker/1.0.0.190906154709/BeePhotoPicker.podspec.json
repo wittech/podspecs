@@ -12,7 +12,7 @@
     "ios": "7.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeePhotoPicker/1_0_0_190906154709.tar.gz"
+    "http": "https://mpaas-ios-test.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeePhotoPicker/1_0_0_190906154709.tar.gz"
   },
   "preserve_paths": "BeePhotoPicker.framework/*",
   "resources": "BeePhotoPicker.framework/*.bundle",

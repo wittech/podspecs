@@ -12,7 +12,7 @@
     "ios": "8.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPPushSDK/1_0_0_190905145348.tar.gz"
+    "http": "https://mpaas-ios-test.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPPushSDK/1_0_0_190905145348.tar.gz"
   },
   "vendored_frameworks": "MPPushSDK.framework",
   "preserve_paths": "MPPushSDK.framework/*",
