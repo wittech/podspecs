@@ -12,7 +12,7 @@
     "ios": "5.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPDataCenter/1_0_0_190905114645.tar.gz"
+    "http": "https://mpaas-ios-test.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPDataCenter/1_0_0_190905114645.tar.gz"
   },
   "vendored_frameworks": "MPDataCenter.framework",
   "libraries": [

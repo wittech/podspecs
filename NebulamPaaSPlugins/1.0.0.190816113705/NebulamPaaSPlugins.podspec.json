@@ -17,6 +17,7 @@
   "preserve_paths": "NebulamPaaSPlugins.framework/*",
   "resources": "NebulamPaaSPlugins.framework/*.bundle",
   "dependencies": {
+    "MPShareKit": [],
     "APCommonUI": [],
     "APMobileFramework": [],
     "NebulaSDK": [],

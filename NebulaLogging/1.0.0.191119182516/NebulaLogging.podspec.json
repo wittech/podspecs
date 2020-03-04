@@ -1,0 +1,30 @@
+{
+  "name": "NebulaLogging",
+  "version": "1.0.0.191119182516",
+  "summary": "NebulaLogging - 支付宝钱包NebulaLogging类库",
+  "description": "* Detail about this framework.\n提供SPM埋点整体方案、H5/容器埋点接口，产出容器自动埋点",
+  "homepage": "http://www.alipay.com/NebulaLogging",
+  "license": "MIT",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaLogging/1_0_0_191119182516.tar.gz"
+  },
+  "preserve_paths": "NebulaLogging.framework/*",
+  "resources": "NebulaLogging.framework/*.bundle",
+  "prefix_header_file": "NebulaLogging-prefix.h",
+  "dependencies": {
+    "NebulaSDK": [],
+    "APRemoteLogging": [],
+    "AutoTracker": []
+  },
+  "vendored_frameworks": "NebulaLogging.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaLogging"
+  }
+}

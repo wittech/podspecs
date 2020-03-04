@@ -1,0 +1,26 @@
+{
+  "name": "SPMTracker",
+  "version": "1.0.0.200302192253",
+  "summary": "SPMTracker - 支付宝钱包SPMTracker类库",
+  "description": "* SPM埋点解决方案.",
+  "homepage": "http://www.alipay.com/SPMTracker",
+  "license": "MIT (example)",
+  "authors": {
+    "botao": "hongtao.ht@koubei.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/SPMTracker/1_0_0_200302192253.tar.gz"
+  },
+  "preserve_paths": "SPMTracker.framework/*",
+  "dependencies": {
+    "APRemoteLogging": []
+  },
+  "vendored_frameworks": "SPMTracker.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/SPMTracker"
+  }
+}

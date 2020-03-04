@@ -1,0 +1,27 @@
+{
+  "name": "APMAudioProcessing",
+  "version": "1.0.0.200302181840",
+  "summary": "APMAudioProcessing - 支付宝钱包APMAudioProcessing类库",
+  "description": "* 音频处理",
+  "homepage": "http://www.alipay.com/APMAudioProcessing",
+  "license": "MIT (example)",
+  "authors": {
+    "比伦": "feihu.yfh@alibaba-inc.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMAudioProcessing/1_0_0_200302181840.tar.gz"
+  },
+  "preserve_paths": "APMAudioProcessing.framework/*",
+  "resources": "APMAudioProcessing.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": []
+  },
+  "vendored_frameworks": "APMAudioProcessing.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMAudioProcessing"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "NebulaPoseidon",
+  "version": "1.0.0.191122175250",
+  "summary": "NebulaPoseidon - 支付宝钱包NebulaPoseidon类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulaPoseidon",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaPoseidon/1_0_0_191122175250.tar.gz"
+  },
+  "preserve_paths": "NebulaPoseidon.framework/*",
+  "resources": "NebulaPoseidon.framework/*.bundle",
+  "vendored_frameworks": "NebulaPoseidon.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaPoseidon"
+  }
+}

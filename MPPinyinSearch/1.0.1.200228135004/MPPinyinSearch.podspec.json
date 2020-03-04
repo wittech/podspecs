@@ -1,0 +1,20 @@
+{
+  "name": "MPPinyinSearch",
+  "version": "1.0.1.200228135004",
+  "summary": "MAS接口库.",
+  "description": "MAS接口库.",
+  "homepage": "http://http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPPinyinSearch",
+  "license": "MIT",
+  "authors": {
+    "夜禹": "mingyu.ymy@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPPinyinSearch/1_0_1_200228135004.tar.gz"
+  },
+  "vendored_frameworks": "MPPinyinSearch.framework",
+  "preserve_paths": "MPPinyinSearch.framework/*",
+  "requires_arc": true
+}

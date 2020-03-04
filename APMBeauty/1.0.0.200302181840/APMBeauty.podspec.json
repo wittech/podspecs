@@ -1,0 +1,27 @@
+{
+  "name": "APMBeauty",
+  "version": "1.0.0.200302181840",
+  "summary": "APMBeauty - 支付宝钱包APMBeauty类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APMBeauty",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMBeauty/1_0_0_200302181840.tar.gz"
+  },
+  "preserve_paths": "APMBeauty.framework/*",
+  "resources": "APMBeauty.framework/*.bundle",
+  "dependencies": {
+    "APMUtils": []
+  },
+  "vendored_frameworks": "APMBeauty.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMBeauty"
+  }
+}

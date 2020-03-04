@@ -1,0 +1,33 @@
+{
+  "name": "BEEAudioUtil",
+  "version": "1.0.0.200228120654",
+  "summary": "BEEAudioUtil - 支付宝钱包BEEAudioUtil类库",
+  "description": "* appId: 20000941",
+  "homepage": "http://www.alipay.com/BEEAudioUtil",
+  "license": "MIT",
+  "authors": {
+    "莜阳": "aixiang.sax@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BEEAudioUtil/1_0_0_200228120654.tar.gz"
+  },
+  "preserve_paths": "BEEAudioUtil.framework/*",
+  "resources": "BEEAudioUtil.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "mPaas": [],
+    "APMultimedia": [],
+    "AntUI": [],
+    "NebulaSDK": [],
+    "NebulaHeader": []
+  },
+  "vendored_frameworks": "BEEAudioUtil.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BEEAudioUtil"
+  }
+}

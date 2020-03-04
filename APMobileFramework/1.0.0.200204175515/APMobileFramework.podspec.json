@@ -1,0 +1,30 @@
+{
+  "name": "APMobileFramework",
+  "version": "1.0.0.200204175515",
+  "summary": "APMobileFramework - Mobile Framework",
+  "description": "* Context\n* Micro app management\n* Micro service management",
+  "homepage": "http://www.alipay.com/APMobileFramework",
+  "license": "MIT (example)",
+  "authors": {
+    "wenbi": "wenbi@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APMobileFramework/1_0_0_200204175515.tar.gz"
+  },
+  "preserve_paths": "APMobileFramework.framework/*",
+  "resources": "APMobileFramework.framework/*.bundle",
+  "dependencies": {
+    "mPaas": [],
+    "APLog": [],
+    "APRemoteLogging": []
+  },
+  "frameworks": "UserNotifications",
+  "vendored_frameworks": "APMobileFramework.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APMobileFramework"
+  }
+}

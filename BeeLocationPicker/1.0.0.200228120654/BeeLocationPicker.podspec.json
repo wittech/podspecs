@@ -1,0 +1,36 @@
+{
+  "name": "BeeLocationPicker",
+  "version": "1.0.0.200228120654",
+  "summary": "BeeLocationPicker - 支付宝BeeLocationPicker类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/BeeLocationPicker",
+  "license": "MIT (example)",
+  "authors": {
+    "莜阳": "aixiang.sax@alipay.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeeLocationPicker/1_0_0_200228120654.tar.gz"
+  },
+  "preserve_paths": "BeeLocationPicker.framework/*",
+  "resources": "BeeLocationPicker.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APMap": [],
+    "APMobileLBS": [],
+    "AntUI": [],
+    "APLog": [],
+    "APRemoteLogging": [],
+    "Nebula": [],
+    "NebulaPoseidon": [],
+    "APCommonUI": []
+  },
+  "vendored_frameworks": "BeeLocationPicker.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeeLocationPicker"
+  }
+}

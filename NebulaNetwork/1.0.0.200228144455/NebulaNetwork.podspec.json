@@ -1,0 +1,37 @@
+{
+  "name": "NebulaNetwork",
+  "version": "1.0.0.200228144455",
+  "summary": "NebulaNetwork - 支付宝钱包NebulaNetwork类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulaNetwork",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaNetwork/1_0_0_200228144455.tar.gz"
+  },
+  "preserve_paths": "NebulaNetwork.framework/*",
+  "resources": "NebulaNetwork.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "AntUI": [],
+    "Nebula": [],
+    "NebulaPoseidon": [],
+    "NebulaSDK": [],
+    "NebulaLogging": [],
+    "MASSProxy": [],
+    "SocketCraft": [],
+    "MPDataCenter": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "NebulaNetwork.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaNetwork"
+  }
+}

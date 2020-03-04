@@ -1,0 +1,36 @@
+{
+  "name": "APLongLinkService",
+  "version": "1.0.0.200214162420",
+  "summary": "APLongLinkService - 应用内长连接",
+  "description": "* 应用内长连接",
+  "homepage": "http://www.alipay.com/APLongLinkService",
+  "license": "MIT (example)",
+  "authors": {
+    "wenbi": "wenbi@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APLongLinkService/1_0_0_200214162420.tar.gz"
+  },
+  "preserve_paths": "APLongLinkService.framework/*",
+  "resources": "APLongLinkService.framework/*.bundle",
+  "frameworks": [
+    "CoreMotion",
+    "MessageUI"
+  ],
+  "dependencies": {
+    "APLog": [],
+    "APProtocolBuffers": [],
+    "mPaas": [],
+    "MPDataCenter": [],
+    "SecurityGuardSDK": [],
+    "UTDID": []
+  },
+  "vendored_frameworks": "APLongLinkService.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APLongLinkService"
+  }
+}

@@ -17,8 +17,7 @@
   "preserve_paths": "MPSafeKeyboard.framework/*",
   "dependencies": {
     "APOpenSSL": [],
-    "AntUI": [],
-    "MPLicense": []
+    "AntUI": []
   },
   "vendored_frameworks": "MPSafeKeyboard.framework",
   "requires_arc": true,

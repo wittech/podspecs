@@ -1,0 +1,26 @@
+{
+  "name": "APSecDeviceInfo",
+  "version": "1.0.0.200214112411",
+  "summary": "安全SDK设备信息",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APSecDeviceInfo",
+  "license": {
+    "type": "Copyright",
+    "text": "           Alibaba-INC copyright\n"
+  },
+  "authors": {
+    "丘壑": "shaoqing.msq@alibaba-inc.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APSecDeviceInfo/1_0_0_200214112411.tar.gz"
+  },
+  "preserve_paths": "APSecDeviceInfo.framework/*",
+  "vendored_frameworks": "APSecDeviceInfo.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APSecDeviceInfo"
+  }
+}

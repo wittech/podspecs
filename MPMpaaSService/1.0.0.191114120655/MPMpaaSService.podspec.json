@@ -1,0 +1,32 @@
+{
+  "name": "MPMpaaSService",
+  "version": "1.0.0.191114120655",
+  "summary": "MPMpaaSService - 支付宝钱包MPMpaaSService类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPMpaaSService",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPMpaaSService/1_0_0_191114120655.tar.gz"
+  },
+  "preserve_paths": "MPMpaaSService.framework/*",
+  "resources": "MPMpaaSService.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APRemoteLogging": [],
+    "mPaas": [],
+    "APLog": [],
+    "APProtocolBuffers": [],
+    "APLongLinkService": []
+  },
+  "vendored_frameworks": "MPMpaaSService.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPMpaaSService"
+  }
+}

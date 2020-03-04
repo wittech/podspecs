@@ -1,0 +1,52 @@
+#!/bin/bash
+
+rm -rf $PWD/AlipaySDK/3.0.2
+rm -rf $PWD/AMapFoundationKit/3.0.2
+rm -rf $PWD/AntUI/10.1.27
+rm -rf $PWD/AntUIShellForMpass/10.1.27
+rm -rf $PWD/APCommonUI/10.1.27
+rm -rf $PWD/APConfig/1.0.1
+rm -rf $PWD/APCrashReporter/10.1.18
+rm -rf $PWD/APLog/3.0.1
+rm -rf $PWD/APLongLinkService/10.1.10
+rm -rf $PWD/APMap/10.1.10
+rm -rf $PWD/APMobileFramework/10.1.20
+rm -rf $PWD/APMobileLBS/3.0.2
+rm -rf $PWD/APMobileNetwork/10.1.18
+rm -rf $PWD/APOpenSSL/10.1.18
+rm -rf $PWD/APProtocolBuffers/1.0.2
+rm -rf $PWD/APRemoteLogging/10.1.18
+rm -rf $PWD/APSecurityUtility/1.2.0
+rm -rf $PWD/AutoTracker/3.0.0
+rm -rf $PWD/MAMapKit/3.0.2
+rm -rf $PWD/mPaas/10.1.25
+rm -rf $PWD/MPBadgeService/3.0.0
+rm -rf $PWD/MPDataCenter/10.1.12
+rm -rf $PWD/MPDiagnosis/3.0.0
+rm -rf $PWD/MPHotpatchSDK/3.0.0
+rm -rf $PWD/MPPerformance/3.0.0
+rm -rf $PWD/MPPinyinSearch/1.0.0
+rm -rf $PWD/MPPushSDK/1.0.0
+rm -rf $PWD/MPShareKit/3.1.1
+rm -rf $PWD/NebulaAppManager/10.1.29
+rm -rf $PWD/NebulaHeader/10.1.10
+rm -rf $PWD/NebulaLogging/2.0.0
+rm -rf $PWD/NebulamPaaSBiz/3.0.13
+rm -rf $PWD/NebulaPoseidon/10.1.29
+rm -rf $PWD/NebulaSDK/10.1.29
+rm -rf $PWD/NebulaSDKPlugins/4.0.1
+rm -rf $PWD/NebulaSDKPlugins/10.1.15
+rm -rf $PWD/SecurityGuardSDK/5.4.2009
+rm -rf $PWD/SocketCraft/10.1.12
+rm -rf $PWD/TBScanSDK/10.1.15
+rm -rf $PWD/TianYan/3.0.0
+rm -rf $PWD/UTDID/3.0.0
+
+
+
+
+
+
+
+
+

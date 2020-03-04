@@ -1,0 +1,34 @@
+{
+  "name": "APBLESDK",
+  "version": "1.0.0.200228181541",
+  "summary": "APBLESDK - 支付宝钱包APBLESDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APBLESDK",
+  "license": "MIT",
+  "authors": {
+    "任飞": "landong.zhao@antfin.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APBLESDK/1_0_0_200228181541.tar.gz"
+  },
+  "preserve_paths": "APBLESDK.framework/*",
+  "frameworks": "CoreBluetooth",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "mPaas": [],
+    "NebulaSDK": [],
+    "APLog": [],
+    "APRemoteLogging": [],
+    "APConfig": [],
+    "Nebula": []
+  },
+  "vendored_frameworks": "APBLESDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APBLESDK"
+  }
+}

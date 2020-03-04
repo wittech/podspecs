@@ -1,0 +1,27 @@
+{
+  "name": "SocketCraft",
+  "version": "1.0.0.200228175209",
+  "summary": "SocketCraft - 支付宝钱包SocketCraft类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/SocketCraft",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/SocketCraft/1_0_0_200228175209.tar.gz"
+  },
+  "preserve_paths": "SocketCraft.framework/*",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": []
+  },
+  "vendored_frameworks": "SocketCraft.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/SocketCraft"
+  }
+}

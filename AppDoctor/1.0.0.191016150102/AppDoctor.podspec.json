@@ -1,0 +1,34 @@
+{
+  "name": "AppDoctor",
+  "version": "1.0.0.191016150102",
+  "summary": "AppDoctor - 支付宝钱包AppDoctor类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AppDoctor",
+  "license": "MIT (example)",
+  "authors": {
+    "扶瑶": "tina.zl@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AppDoctor/1_0_0_191016150102.tar.gz"
+  },
+  "preserve_paths": "AppDoctor.framework/*",
+  "resources": "AppDoctor.framework/*.bundle",
+  "dependencies": {
+    "MPNebulaAdapter": [],
+    "APMobileFramework": [],
+    "Nebula": [],
+    "APCommonUI": [],
+    "APConfig": [],
+    "NebulaSDK": [],
+    "NebulaPoseidon": [],
+    "MPDevHelper": []
+  },
+  "vendored_frameworks": "AppDoctor.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AppDoctor"
+  }
+}

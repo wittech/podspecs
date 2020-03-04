@@ -1,0 +1,24 @@
+{
+  "name": "APPSecuritySDK",
+  "version": "1.0.0.200219192245",
+  "summary": "APPSecuritySDK - 支付宝钱包APPSecuritySDK类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/APPSecuritySDK",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APPSecuritySDK/1_0_0_200219192245.tar.gz"
+  },
+  "preserve_paths": "APPSecuritySDK.framework/*",
+  "resources": "APPSecuritySDK.framework/*.bundle",
+  "vendored_frameworks": "APPSecuritySDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APPSecuritySDK"
+  }
+}

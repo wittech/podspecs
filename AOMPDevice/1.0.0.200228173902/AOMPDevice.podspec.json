@@ -1,0 +1,41 @@
+{
+  "name": "AOMPDevice",
+  "version": "1.0.0.200228173902",
+  "summary": "AOMPDevice - 支付宝钱包AOMPDevice类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/AOMPDevice",
+  "license": "MIT (example)",
+  "authors": {
+    "异草": "qiuping.zhou@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/AOMPDevice/1_0_0_200228173902.tar.gz"
+  },
+  "preserve_paths": "AOMPDevice.framework/*",
+  "resources": "AOMPDevice.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "NebulaSDK": [],
+    "NebulaPoseidon": [],
+    "NebulaKernel": [],
+    "SecurityGuardSDK": [],
+    "TinyAppCommon": []
+  },
+  "vendored_frameworks": "AOMPDevice.framework",
+  "frameworks": [
+    "AddressBook",
+    "AddressBookUI",
+    "Contacts",
+    "ContactsUI",
+    "NetworkExtension"
+  ],
+  "libraries": "bz2",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/AOMPDevice"
+  }
+}

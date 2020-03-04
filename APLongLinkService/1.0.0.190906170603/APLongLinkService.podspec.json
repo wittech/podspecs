@@ -12,7 +12,7 @@
     "ios": "5.0"
   },
   "source": {
-    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APLongLinkService/1_0_0_190906170603.tar.gz"
+    "http": "https://mpaas-ios-test.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APLongLinkService/1_0_0_190906170603.tar.gz"
   },
   "preserve_paths": "APLongLinkService.framework/*",
   "resources": "APLongLinkService.framework/*.bundle",

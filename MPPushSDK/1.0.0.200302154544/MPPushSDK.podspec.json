@@ -1,0 +1,25 @@
+{
+  "name": "MPPushSDK",
+  "version": "1.0.0.200302154544",
+  "summary": "mPaaS push SDK",
+  "description": "push仓库",
+  "homepage": "http://gitlab.alipay-inc.com/groups/mPaaS_iOS/MPPushSDK",
+  "license": "MIT",
+  "authors": {
+    "禾兮": "vivi.yw@alibaba-inc.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPPushSDK/1_0_0_200302154544.tar.gz"
+  },
+  "vendored_frameworks": "MPPushSDK.framework",
+  "preserve_paths": "MPPushSDK.framework/*",
+  "requires_arc": true,
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APRemoteLogging": [],
+    "APProtocolBuffers": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "NebulaSDK",
+  "version": "1.0.0.191122175250",
+  "summary": "NebulaSDK - Nebula类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/Nebula",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaSDK/1_0_0_191122175250.tar.gz"
+  },
+  "preserve_paths": "NebulaSDK.framework/*",
+  "resources": "NebulaSDK.framework/*.bundle",
+  "dependencies": {
+    "NebulaPoseidon": [],
+    "NebulaAppManager": [],
+    "APWebImage": []
+  },
+  "vendored_frameworks": "NebulaSDK.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaSDK"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "BeePhoto",
+  "version": "1.0.0.200228134728",
+  "summary": "BeePhoto - 支付宝钱包BeePhoto类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/BeePhoto",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/BeePhoto/1_0_0_200228134728.tar.gz"
+  },
+  "preserve_paths": "BeePhoto.framework/*",
+  "resources": "BeePhoto.framework/*.bundle",
+  "dependencies": {
+    "APMobileNetwork": [],
+    "APMobileFramework": [],
+    "APCommonUI": [],
+    "BeePhotoBrowser": [],
+    "BeePhotoPicker": [],
+    "BeeCapture": [],
+    "NebulaHeader": [],
+    "AOMPFileManager": [],
+    "Nebula": [],
+    "NebulaSDK": [],
+    "NebulaPoseidon": [],
+    "APLog": []
+  },
+  "vendored_frameworks": "BeePhoto.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/BeePhoto"
+  }
+}

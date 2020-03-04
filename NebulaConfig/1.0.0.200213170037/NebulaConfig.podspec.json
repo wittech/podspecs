@@ -1,0 +1,30 @@
+{
+  "name": "NebulaConfig",
+  "version": "1.0.0.200213170037",
+  "summary": "NebulaConfig - 支付宝钱包NebulaConfig类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulaConfig",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaConfig/1_0_0_200213170037.tar.gz"
+  },
+  "preserve_paths": "NebulaConfig.framework/*",
+  "resources": "NebulaConfig.framework/*.bundle",
+  "dependencies": {
+    "Nebula": [],
+    "APMobileFramework": [],
+    "APConfig": [],
+    "mPaas": []
+  },
+  "vendored_frameworks": "NebulaConfig.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaConfig"
+  }
+}

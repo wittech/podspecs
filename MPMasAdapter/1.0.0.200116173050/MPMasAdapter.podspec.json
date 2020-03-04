@@ -1,0 +1,29 @@
+{
+  "name": "MPMasAdapter",
+  "version": "1.0.0.200116173050",
+  "summary": "MPMasAdapter - 支付宝钱包MPMasAdapter类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPMasAdapter",
+  "license": "MIT",
+  "authors": {
+    "未定义": "mingyu.ymy@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPMasAdapter/1_0_0_200116173050.tar.gz"
+  },
+  "preserve_paths": "MPMasAdapter.framework/*",
+  "dependencies": {
+    "APRemoteLogging": [],
+    "AutoTracker": [],
+    "MPPerformance": [],
+    "APCrashReporter": []
+  },
+  "vendored_frameworks": "MPMasAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPMasAdapter"
+  }
+}

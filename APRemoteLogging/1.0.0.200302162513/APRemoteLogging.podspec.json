@@ -1,0 +1,30 @@
+{
+  "name": "APRemoteLogging",
+  "version": "1.0.0.200302162513",
+  "summary": "APRemoteLogging - 业务埋点",
+  "description": "* 业务埋点",
+  "homepage": "http://www.alipay.com/APRemoteLogging",
+  "license": "MIT (example)",
+  "authors": {
+    "wenbi": "wenbi@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/APRemoteLogging/1_0_0_200302162513.tar.gz"
+  },
+  "preserve_paths": "APRemoteLogging.framework/*",
+  "resources": "APRemoteLogging.framework/*.bundle",
+  "dependencies": {
+    "mPaas": [],
+    "UTDID": [],
+    "APProtocolBuffers": []
+  },
+  "frameworks": "CoreTelephony",
+  "vendored_frameworks": "APRemoteLogging.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/APRemoteLogging"
+  }
+}

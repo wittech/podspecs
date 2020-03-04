@@ -1,0 +1,26 @@
+{
+  "name": "MPUTDIDAdapter",
+  "version": "1.0.0.200228181431",
+  "summary": "MPUTDIDAdapter - MPUTDIDAdapter",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/MPUTDIDAdapter",
+  "license": "MIT",
+  "authors": {
+    "未定义": "mingyu.ymy@alipay.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/MPUTDIDAdapter/1_0_0_200228181431.tar.gz"
+  },
+  "preserve_paths": "MPUTDIDAdapter.framework/*",
+  "dependencies": {
+    "UTDID": []
+  },
+  "vendored_frameworks": "MPUTDIDAdapter.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/MPUTDIDAdapter"
+  }
+}

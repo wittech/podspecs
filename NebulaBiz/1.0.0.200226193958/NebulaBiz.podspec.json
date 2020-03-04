@@ -1,0 +1,49 @@
+{
+  "name": "NebulaBiz",
+  "version": "1.0.0.200226193958",
+  "summary": "NebulaBiz - 支付宝钱包NebulaBiz类库",
+  "description": "* Detail about this framework.",
+  "homepage": "http://www.alipay.com/NebulaBiz",
+  "license": "MIT (example)",
+  "authors": {
+    "未定义": "undefined@alipay.com"
+  },
+  "platforms": {
+    "ios": "5.0"
+  },
+  "source": {
+    "http": "https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mPaaS-SDK-Public/NebulaBiz/1_0_0_200226193958.tar.gz"
+  },
+  "preserve_paths": "NebulaBiz.framework/*",
+  "resources": "NebulaBiz.framework/*.bundle",
+  "dependencies": {
+    "APMobileFramework": [],
+    "APWebImage": [],
+    "APCommonUI": [],
+    "APRemoteLogging": [],
+    "APWebP": [],
+    "APBusinessSchemeHandlers": [],
+    "Nebula": [],
+    "NebulaKernel": [],
+    "APMultimedia": [],
+    "NebulaAppBiz": [],
+    "AntUI": [],
+    "NebulaLogging": [],
+    "NebulaTinyapp": [],
+    "NebulaConfig": [],
+    "MPDataCenter": [],
+    "TinyAppCommon": [],
+    "NebulaNetwork": [],
+    "NebulaSecurity": [],
+    "mPaas": []
+  },
+  "frameworks": [
+    "AudioToolBox",
+    "AVFoundation"
+  ],
+  "vendored_frameworks": "NebulaBiz.framework",
+  "requires_arc": true,
+  "xcconfig": {
+    "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/NebulaBiz"
+  }
+}
